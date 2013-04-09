@@ -1,0 +1,16 @@
+##  Plugin Information  ##
+name: StatueGenerator
+version: 1
+main: hinadamari.statuegenerator.StatueGenerator
+description: StatueGenerator Plugin
+##  Original Author     ##
+author: hinadamari
+commands:
+    statuegenerator:
+      usage: /statuegenerator - to see the help
+      aliases: [statuegen, statue]
+      description: To see the StatueGenerator help.
+permissions:
+    statuegenerator.admin:
+        default: op
+        description: Allow use admin commands
