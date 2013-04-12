@@ -96,7 +96,7 @@ public class ColorData {
         	    	putColor("22", 29, 72, 166);
         	    	break;
         	    case "24":
-        	    	putColor("24", 219, 211, 159);
+        	    	putColor("24", 218, 211, 159);
         	    	break;
         	    case "25":
         	    	putColor("25", 88, 61, 48);
@@ -166,6 +166,12 @@ public class ColorData {
         	    	break;
         	    case "155":
         	    	putColor("155", 235, 232, 225);
+        	    	break;
+        	    case "43:8":
+        	    	putColor("43:8", 153, 153, 153);
+        	    	break;
+        	    case "43:9":
+        	    	putColor("43:9", 219, 211, 159);
         	    	break;
         	}
         }

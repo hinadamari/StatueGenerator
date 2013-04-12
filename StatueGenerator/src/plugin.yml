@@ -8,7 +8,7 @@ author: hinadamari
 commands:
     statuegenerator:
       usage: /statuegenerator - to see the help
-      aliases: [statuegen, statue]
+      aliases: [statuegen, sg, statue]
       description: To see the StatueGenerator help.
 permissions:
     statuegenerator.admin:

@@ -68,7 +68,7 @@ public class GenerateCommand extends BaseCommand{
             if (Timer.isRunning(sender.getName())){
                 throw new CommandException(msgPrefix+ "&cYou are already running generator task!");
             }
-            final GeneratorTask task = new GeneratorTask(plugin, sender, dir);
+            final GeneratorTask task = new GeneratorTask(plugin, sender, dir, args.get(0));
             task.setSource(url);
             @SuppressWarnings("deprecation")
 			final int taskID = plugin.getServer().getScheduler().scheduleAsyncDelayedTask(plugin, task, 0L);

@@ -130,7 +130,7 @@ public class StatueGenerator extends JavaPlugin{
      */
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String args[]){
-        if (cmd.getName().equalsIgnoreCase("skingenerator")){
+        if (cmd.getName().equalsIgnoreCase("statuegenerator")){
             if(args.length == 0){
                 // 引数ゼロはヘルプ表示
                 args = new String[]{"help"};

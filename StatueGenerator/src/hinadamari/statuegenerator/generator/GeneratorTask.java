@@ -34,6 +34,7 @@ public class GeneratorTask implements Runnable{
     private String senderName;
     private Location senderLocation;
     private Direction dir;
+    private String playerid;
 
     private boolean isURL = false;
     private boolean isFile = false;
@@ -42,12 +43,13 @@ public class GeneratorTask implements Runnable{
 
     BufferedImage img = null;
 
-    public GeneratorTask(final StatueGenerator plugin, final CommandSender sender, final Direction direction){
+    public GeneratorTask(final StatueGenerator plugin, final CommandSender sender, final Direction direction, final String playerid){
         this.plugin = plugin;
 
         this.senderName = sender.getName();
         this.senderLocation = (sender instanceof Player) ? ((Player) sender).getLocation() : null;
         this.dir = direction;
+        this.playerid = playerid;
     }
 
     public void setSource(final URL url){
@@ -109,7 +111,7 @@ public class GeneratorTask implements Runnable{
         plugin.debug("Finish image convert loop");
 
         // build
-        BuildingTask task = new BuildingTask(plugin, senderName, senderLocation, dir);
+        BuildingTask task = new BuildingTask(plugin, senderName, senderLocation, dir, playerid);
         task.putBlockData(blocks, width, height);
 
         synchronized (GeneratorTask.class) {

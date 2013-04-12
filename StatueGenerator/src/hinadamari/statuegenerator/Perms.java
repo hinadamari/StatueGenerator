@@ -17,7 +17,7 @@ public enum Perms {
     ;
 
     // ノードヘッダー
-    final String HEADER = "artgenerator.";
+    final String HEADER = "statuegenerator.";
     private String node;
 
     /**

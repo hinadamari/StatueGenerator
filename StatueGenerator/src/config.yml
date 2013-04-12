@@ -1,6 +1,9 @@
 # StatueGenerator Configuration file!
 # @author hinadamari
+#
+# URL used for fetching player skins (%player% is macro for name)
 skin-url: "http://s3.amazonaws.com/MinecraftSkins/%player%.png"
+# Block Id List used for Generating 
 allowed-blocks:
     - "35:0"
     - "35:1"
@@ -22,7 +25,9 @@ allowed-blocks:
     - "3"
     - "4"
     - "5"
-    - "7"
+    - "5:1"
+    - "5:2"
+    - "5:3"
     - "12"
     - "13"
     - "22"
@@ -36,14 +41,9 @@ allowed-blocks:
     - "57"
     - "80"
     - "82"
-    - "86"
     - "87"
     - "88"
     - "89"
-    - "91"
-    - "5:1"
-    - "5:2"
-    - "5:3"
     - "19"
     - "112"
     - "121"
