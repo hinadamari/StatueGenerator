@@ -173,6 +173,65 @@ public class ColorData {
         	    case "43:9":
         	    	putColor("43:9", 219, 211, 159);
         	    	break;
+        	    // 1.6.x
+        	    case "159":
+    	    	case "159:0":
+        	    	putColor("159:0", 210, 178, 161);
+        	    	break;
+        	    case "159:1":
+        	    	putColor("159:1", 162, 84, 38);
+        	    	break;
+        	    case "159:2":
+        	    	putColor("159:2", 150, 88, 109);
+        	    	break;
+        	    case "159:3":
+        	    	putColor("159:3", 113, 109, 138);
+        	    	break;
+        	    case "159:4":
+        	    	putColor("159:4", 186, 133, 35);
+        	    	break;
+        	    case "159:5":
+        	    	putColor("159:5", 104, 118, 53);
+        	    	break;
+        	    case "159:6":
+        	    	putColor("159:6", 162, 78, 79);
+        	    	break;
+        	    case "159:7":
+        	    	putColor("159:7", 58, 43, 36);
+        	    	break;
+        	    case "159:8":
+        	    	putColor("159:8", 135, 107, 98);
+        	    	break;
+        	    case "159:9":
+        	    	putColor("159:9", 87, 91, 91);
+        	    	break;
+        	    case "159:10":
+        	    	putColor("159:10", 118, 70, 86);
+        	    	break;
+        	    case "159:11":
+        	    	putColor("159:11", 74, 60, 91);
+        	    	break;
+        	    case "159:12":
+        	    	putColor("159:12", 77, 51, 36);
+        	    	break;
+        	    case "159:13":
+        	    	putColor("159:13", 76, 83, 42);
+        	    	break;
+        	    case "159:14":
+        	    	putColor("159:14", 143, 61, 47);
+        	    	break;
+        	    case "159:15":
+        	    	putColor("159:15", 37, 23, 16);
+        	    	break;
+        	    case "170":
+        	    	putColor("170", 158, 120, 18);
+        	    	break;
+        	    case "172":
+        	    	putColor("172", 151, 93, 67);
+        	    	break;
+        	    case "173":
+        	    	putColor("173", 18, 18, 18);
+        	    	break;
         	}
         }
 
